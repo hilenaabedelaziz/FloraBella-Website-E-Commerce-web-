@@ -1,0 +1,177 @@
+:root{
+    --pink:#3a6e01;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Arial, Helvetica, sans-serif;
+    outline: none;border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #f9f9f9;
+}
+section{
+    padding: 2rem 9% ;
+}
+.heading{
+    text-align: center;
+    font-size: 5.5rem;
+    color: #3a6e01;
+    padding: 3rem;
+    margin: 9rem auto;
+    background: white;
+    font-family: 'ui',rounded;
+    padding-top: 0;
+   
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #333;
+    color: #fff;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+.btn:hover{
+    background: var(--pink);
+}
+.shopping-cart .title{
+    text-align: center;
+    margin:8rem;
+    color: #3a6e01;
+    font-size: 5rem;
+    font-family: 'ui',rounded;
+}
+.shopping-cart .box-container{
+    width:1400px;
+    height:250px;
+   
+    
+    
+   
+}
+.shopping-cart .box{
+    top: 80px;
+    display:flex;
+    position: relative;
+    height: 250px;
+    width:650px;
+    border: 3px solid none;
+    align-items: center;
+    margin:auto;
+    margin-top: 50px;
+    background-color: rgba(253, 253, 253, 0);
+box-shadow: none;
+border-radius: 25px;
+background-color: #fff;
+justify-content: center;
+
+}
+.shopping-cart .box img{
+    display: flex;
+}
+.shopping-cart .box .name{
+    font-size: 2.5rem;
+    font-family: 'ui',rounded;
+    color: #3a6e01;
+    background-color: transparent;
+    display: inline-block;
+    padding-right: 30px;
+    padding-bottom: 20px;
+   
+}
+.shopping-cart .box form .price{
+    font-size: 2rem;
+    font-size: 2.5rem;
+    font-family: 'ui',rounded;
+    color: #3a6e01;
+    background-color: transparent;
+    padding-left: 90px;
+    margin-top: 45px;
+   
+}
+.shopping-cart .box form .subtotal{
+    font-size: 2.5rem;
+    
+    font-family: 'ui',rounded;
+    color: #3a6e01;
+    background-color: transparent;
+   padding-left:25px;
+    
+}
+.shopping-cart .box form .qty{
+    font-size: 2.5rem;
+    font-family: 'ui',rounded;
+    color: #3a6e01;
+    background-color: transparent;
+    max-width: 5rem;
+   
+   
+   
+  
+}
+.shopping-cart .box form .update_quantity{
+    font-size: 4rem;
+    font-family: 'ui',rounded;
+    color: #b1921d;
+    border-radius: 1rem;
+    background-color: #fff;
+    
+}
+.shopping-cart .box form .deletefrom_cart{
+    font-size: 4rem;
+    font-family: 'ui',rounded;
+    color:#b1921d ;
+    background-color:transparent;
+    border-radius: 1rem;
+   
+}
+.cart-total form{
+    font-family: 'ui',rounded;
+    text-align: center;
+    justify-content: center;
+    margin: 90px;
+}
+.cart-total form .grandtotal{
+
+    font-size:3.5rem;
+    font-family: 'ui',rounded;
+    color: #3a6e01;
+    background-color: transparent;
+   
+    text-align: center;
+    
+    
+}
+.cart-total .update_quantity{
+    font-size: 3.5rem;
+    font-family: 'ui',rounded;
+    color: #fff;
+    background-color: #b1921d;
+    border-radius: 2rem;
+    text-align: center;
+    width: 20rem;
+   
+}
+.cart-total .option-btn{
+    font-size: 3.5rem;
+    font-family: 'ui',rounded;
+    color: #b1921d;
+    background-color: transparent;
+    
+    text-align: center;
+}

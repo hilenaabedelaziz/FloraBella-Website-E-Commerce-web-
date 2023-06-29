@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    margin: 0;
+    justify-content: center; 
+    background-color:#021b05;/* Center-align the icons horizontally */
+  }
+  
+  .footer i {
+    margin: 0 5px; /* Add some space between the icons (adjust as needed) */
+    font-size: 45px;
+    color: #fff;
+    
+
+  }
+  

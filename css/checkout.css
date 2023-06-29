@@ -1,0 +1,182 @@
+:root{
+    --pink:#3a6e01;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Arial, Helvetica, sans-serif;
+    outline: none;border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #f9f9f9;
+}
+section{
+    padding: 2rem 9% ;
+}
+.heading{
+    text-align: center;
+    font-size: 5.5rem;
+    color: #3a6e01;
+    padding: 3rem;
+    margin: 9rem auto;
+    background: white;
+    font-family: 'ui',rounded;
+    padding-top: 0;
+   
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #333;
+    color: #fff;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+.btn:hover{
+    background: var(--pink);
+}
+
+
+
+
+
+body{
+    background-color: #f9f9f9;
+}
+.checkout h2{
+    text-align: center;
+    margin:8rem;
+    color: #3a6e01;
+    font-size: 5rem;
+    font-family: 'ui',rounded;
+}
+.checkout h3{
+    margin: 10rem;
+    font-size: 3rem;
+    font-family: 'ui',rounded;
+    color: #b1921d;
+    
+}
+
+.checkout form  .customer_info {
+    
+    display:flex;
+    flex-direction:column;
+    height: 350px;
+    width: 550px;
+    border: 3px solid none;
+   text-align: center;
+    margin:2rem auto;
+     margin-top: 20px;
+    background-color:#fff;
+
+border-radius: 25px;
+color: #3a6e01;
+
+
+
+}
+.checkout form  .customer_info h4{
+    font-size: 4rem;
+    color: #3a6e01;
+    background-color: #fff;
+    margin: 30px;
+}
+.checkout form .address{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 550px;
+    border: 3px solid none;
+   text-align: center;
+    margin:2rem auto;
+     margin-top: 20px;
+   background-color:#fff;;
+
+border-radius: 25px;
+color: #3a6e01;
+}
+.checkout .address h4{
+    font-size: 3rem;
+    color: #3a6e01;
+    background-color: #fff;
+    margin: 30px;
+}
+.checkout form .customer_info .box{
+    font-family: 'ui',rounded;
+    font-size: 3rem;
+    color: #3a6e01;
+    padding: 20px;
+    background-color: #fff;
+}
+.checkout  .address .box{
+    font-family: 'ui',rounded;
+    font-size: 3rem;
+    color: #3a6e01;
+    padding: 20px;
+    background-color: #fff;
+}
+.checkout form .customer_info h4{
+   border-color: white;
+    font-size: 20px;
+    
+}
+.checkout form .payment{
+    font-family: 'ui',rounded;
+    color:#3a6e01;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 450px;
+    background: #fff;
+    font-size: 3rem;
+    position: absolute;
+    left:35%;
+    
+}
+.checkout .order_summary{
+   background-color: transparent;
+   padding: 30px;
+   
+}
+
+.checkout .order_summary label{
+    font-size: 3rem;
+    font-family: 'ui',rounded;
+    color: #b1921d;
+}
+.checkout .order_summary p{
+    font-size: 3rem;
+    font-family: 'ui',rounded;
+    color: #b1921d;
+}
+.checkout  .update_quantity{
+    font-family: 'ui',rounded;
+    color: #fff;
+    background-color: #b1921d;
+    width:180px;
+    border-radius: 2rem;
+    font-size: 2.5rem;
+    
+}
+   
+  
+    
+    
+   
+   
+    
